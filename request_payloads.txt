@@ -1,0 +1,204 @@
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "system",
+      "content": "\nYou are ChatGPT, a large language model trained by OpenAI.\nKnowledge cutoff: 2023-10\nCurrent model: gpt-4o-mini\nCurrent time: Wed May 14 2025 11:10:29 GMT-0300 (Horário Padrão de Brasília)\nLatex inline: \\(x^2\\) \nLatex block: $$e=mc^2$$\n\n"
+    },
+    {
+      "role": "user",
+      "content": "Oi esta e a primeira mesnagem"
+    }
+  ],
+  "temperature": 0.5,
+  "top_p": 1.0,
+  "n": 1,
+  "stream": true,
+  "max_tokens": 4000,
+  "presence_penalty": 0.0,
+  "frequency_penalty": 0.0
+}
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "system",
+      "content": "\nYou are ChatGPT, a large language model trained by OpenAI.\nKnowledge cutoff: 2023-10\nCurrent model: gpt-4o-mini\nCurrent time: Wed May 14 2025 11:10:37 GMT-0300 (Horário Padrão de Brasília)\nLatex inline: \\(x^2\\) \nLatex block: $$e=mc^2$$\n\n"
+    },
+    {
+      "role": "user",
+      "content": "Oi esta e a primeira mesnagem"
+    },
+    {
+      "role": "assistant",
+      "content": "Olá! Que bom ter você por aqui. Como posso te ajudar hoje? 😊"
+    },
+    {
+      "role": "user",
+      "content": "Esta e a segunda"
+    }
+  ],
+  "temperature": 0.5,
+  "top_p": 1.0,
+  "n": 1,
+  "stream": true,
+  "max_tokens": 4000,
+  "presence_penalty": 0.0,
+  "frequency_penalty": 0.0
+}
+{
+  "model": "gpt-4o",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Oi esta e a primeira mesnagem"
+    },
+    {
+      "role": "assistant",
+      "content": "Olá! Que bom ter você por aqui. Como posso te ajudar hoje? 😊"
+    },
+    {
+      "role": "user",
+      "content": "Esta e a segunda"
+    },
+    {
+      "role": "assistant",
+      "content": "Olá! Sim, esta é a segunda interação. Como posso te ajudar hoje?"
+    },
+    {
+      "role": "user",
+      "content": "Por favor, gere um título de quatro a cinco palavras resumindo nossa conversa sem qualquer introdução, pontuação, aspas, períodos, símbolos ou texto adicional. Remova as aspas que o envolvem."
+    }
+  ],
+  "temperature": 0.5,
+  "top_p": 1.0,
+  "n": 1,
+  "stream": false,
+  "max_tokens": 4000,
+  "presence_penalty": 0.0,
+  "frequency_penalty": 0.0
+}
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "system",
+      "content": "\nYou are ChatGPT, a large language model trained by OpenAI.\nKnowledge cutoff: 2023-10\nCurrent model: gpt-4o-mini\nCurrent time: Wed May 14 2025 11:10:42 GMT-0300 (Horário Padrão de Brasília)\nLatex inline: \\(x^2\\) \nLatex block: $$e=mc^2$$\n\n"
+    },
+    {
+      "role": "user",
+      "content": "Oi esta e a primeira mesnagem"
+    },
+    {
+      "role": "assistant",
+      "content": "Olá! Que bom ter você por aqui. Como posso te ajudar hoje? 😊"
+    },
+    {
+      "role": "user",
+      "content": "Esta e a segunda"
+    },
+    {
+      "role": "assistant",
+      "content": "Olá! Sim, esta é a segunda interação. Como posso te ajudar hoje?"
+    },
+    {
+      "role": "user",
+      "content": "Esta e a terceira"
+    }
+  ],
+  "temperature": 0.5,
+  "top_p": 1.0,
+  "n": 1,
+  "stream": true,
+  "max_tokens": 4000,
+  "presence_penalty": 0.0,
+  "frequency_penalty": 0.0
+}
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "system",
+      "content": "\nYou are ChatGPT, a large language model trained by OpenAI.\nKnowledge cutoff: 2023-10\nCurrent model: gpt-4o-mini\nCurrent time: Wed May 14 2025 11:10:46 GMT-0300 (Horário Padrão de Brasília)\nLatex inline: \\(x^2\\) \nLatex block: $$e=mc^2$$\n\n"
+    },
+    {
+      "role": "user",
+      "content": "Oi esta e a primeira mesnagem"
+    },
+    {
+      "role": "assistant",
+      "content": "Olá! Que bom ter você por aqui. Como posso te ajudar hoje? 😊"
+    },
+    {
+      "role": "user",
+      "content": "Esta e a segunda"
+    },
+    {
+      "role": "assistant",
+      "content": "Olá! Sim, esta é a segunda interação. Como posso te ajudar hoje?"
+    },
+    {
+      "role": "user",
+      "content": "Esta e a terceira"
+    },
+    {
+      "role": "assistant",
+      "content": "Olá! Sim, esta é a terceira interação que temos. Como posso te ajudar agora?"
+    },
+    {
+      "role": "user",
+      "content": "Esta e a quarta"
+    }
+  ],
+  "temperature": 0.5,
+  "top_p": 1.0,
+  "n": 1,
+  "stream": true,
+  "max_tokens": 4000,
+  "presence_penalty": 0.0,
+  "frequency_penalty": 0.0
+}
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "system",
+      "content": "\nYou are ChatGPT, a large language model trained by OpenAI.\nKnowledge cutoff: 2023-10\nCurrent model: gpt-4o-mini\nCurrent time: Wed May 14 2025 11:10:52 GMT-0300 (Horário Padrão de Brasília)\nLatex inline: \\(x^2\\) \nLatex block: $$e=mc^2$$\n\n"
+    },
+    {
+      "role": "user",
+      "content": "Esta e a segunda"
+    },
+    {
+      "role": "assistant",
+      "content": "Olá! Sim, esta é a segunda interação. Como posso te ajudar hoje?"
+    },
+    {
+      "role": "user",
+      "content": "Esta e a terceira"
+    },
+    {
+      "role": "assistant",
+      "content": "Olá! Sim, esta é a terceira interação que temos. Como posso te ajudar agora?"
+    },
+    {
+      "role": "user",
+      "content": "Esta e a quarta"
+    },
+    {
+      "role": "assistant",
+      "content": "Ah, entendi! Você está dizendo que hoje é quarta-feira. 😊"
+    },
+    {
+      "role": "user",
+      "content": "esta e a quinta"
+    }
+  ],
+  "temperature": 0.5,
+  "top_p": 1.0,
+  "n": 1,
+  "stream": true,
+  "max_tokens": 4000,
+  "presence_penalty": 0.0,
+  "frequency_penalty": 0.0
+}

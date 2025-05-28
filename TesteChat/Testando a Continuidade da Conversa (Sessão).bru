@@ -1,0 +1,29 @@
+meta {
+  name: Testando a Continuidade da Conversa (Sessão)
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://172.30.0.180:8080/v1/chat/completions
+  body: json
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+  Authorization: Bearer pk-dwoyvDPeEsgdCMnVDirOSYazSBQEYyocqfoiApImlGYLHmOy
+}
+
+body:json {
+  {
+    "model": "gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Qual cor eu pedi para você lembrar?"
+      }
+    ],
+    "stream": false
+  }
+}

@@ -1,0 +1,51 @@
+[project]
+name = "gemini_openai_proxy"
+version = "0.1.0"
+description = "Um proxy para a API Gemini com interface compatível com OpenAI."
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.100.0,<0.112.0",         # Exemplo de versionamento, ajuste conforme necessário
+    "uvicorn[standard]>=0.20.0,<0.30.0",
+    "pydantic>=2.0.0,<3.0.0",
+    "pydantic-settings>=2.0.0,<3.0.0",
+    "python-dotenv>=1.0.0,<2.0.0",       # Para carregar .env
+    # Adicione a gemini-webapi. Se estiver no PyPI:
+    # "gemini-webapi>=0.2.0", # Verifique a versão mais recente
+    # Ou do GitHub:
+    "gemini-webapi @ git+https://github.com/HanaokaYuzu/Gemini-API.git",
+    "loguru>=0.7.0,<0.8.0",                                              # Para logging, já que Gemini-API usa
+    "browser-cookie3>=0.20.1",
+    "pudb>=2025.1",
+]
+
+[project.scripts]
+# Para executar com 'uv run start'
+start = "uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"
+
+# Para produção, você pode querer um script sem --reload e talvez com gunicorn
+# prod = "gunicorn -k uvicorn.workers.UvicornWorker app.main:app -w 4 -b 0.0.0.0:8000"
+
+
+[tool.uv.sources]
+# Se você tiver uma versão local/fork da gemini-webapi queira usar:
+# gemini-webapi = { editable = "../path/to/local/gemini-api" }
+# gemini-webapi = { git = "https://github.com/SEU_USUARIO/Gemini-API.git", rev = "sua_branch_ou_tag" }
+
+[tool.pydantic]
+# Configurações opcionais para Pydantic, se necessário
+# e.g. from_attributes = true
+
+[tool.black]
+# (Opcional) Configuração do Black formatter
+line-length = 88
+
+[tool.isort]
+# (Opcional) Configuração do isort
+profile = "black"
+
+[tool.flake8]
+max-complexity = 20 # Ajuste o threshold de 15 para 20, por exemplo
+ignore = ["C901"]   # Ignorar completamente o erro C901
+# pyproject.toml
+[tool.pyright]
+reportAttributeAccessIssue = "none" # NÃO FAÇA ISSO A MENOS QUE VOCÊ SAIBA O QUE ESTÁ FAZENDO
